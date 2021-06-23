@@ -12,17 +12,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href="assets/app.css" rel="stylesheet">
-
        
 
     </head>
-    <body data-barba="wrapper" class="package_overview">
+    <body data-barba="wrapper"  >
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <canvas id="noise_id_package" class="package_noise"></canvas>
-        <main class="package_transition-fade" data-barba="container">
+        
+        <main data-barba="container" data-barba-namespace="package" class="package_overview">
           <div class="package_overlay"></div>
           
           <div class="package_parent">
@@ -33,9 +31,6 @@
         
         </main>
 
-
-
-        
-        <script src="assets/app.js"></script>
+        <script defer src="assets/app.js"></script>
     </body>
 </html>
